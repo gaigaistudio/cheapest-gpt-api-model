@@ -97,8 +97,6 @@ The practical takeaway: whichever family you anchor on, the ladder shape is the 
 
 ## What the 40% Discount Looks Like in Real Monthly Bills
 
-![Cheap API: monthly bill comparison between 9LinkAI and official pricing](./cheapapi.jpeg)
-
 The Model Plaza includes a cost simulator. The headline scenario is **team collaboration: 60,000 requests per month, averaging 12K input / 1K output tokens per request, 50% cache hit rate**. Ranked by monthly bill on 9Link:
 
 | Rank | Model | 9Link Monthly Bill | Official Monthly Bill | Monthly Saving |
@@ -151,8 +149,6 @@ Notably, because it's a pass-through gateway, streaming output, tool/function ca
 ---
 
 ## Billing Mechanics: The Details That Make the Price Trustworthy
-
-![Cheap API billing: itemized token pricing on 9LinkAI](./cheapapi.jpeg)
 
 Discounted prices are only worth something if the meter behind them is honest. 9Link's billing page specifies:
 
