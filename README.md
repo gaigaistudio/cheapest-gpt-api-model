@@ -1,10 +1,10 @@
 # The Cheapest GPT API Model: How 9LinkAI Sells Official Claude & GPT Tokens at 60% of List Price
 
-*A practical, no-hype guide to 9LinkAI (9linkai.com) — the API gateway that fronts Anthropic and OpenAI's official upstream with one key, transparent per-token billing, and a flat 40% discount on every model in the catalog.*
+*A practical, no-hype guide to 9LinkAI — the API gateway that fronts Anthropic and OpenAI's official upstream with one key, transparent per-token billing, and a flat 40% discount on every model in the catalog.*
 
 ---
 
-If you have been hunting for the **cheapest GPT API model** — or for that matter the cheapest legitimate way to run **Claude**, Anthropic's frontier family, behind your code, your product, or your agents — you have almost certainly run into the same wall: official list prices are high, subscription plans don't map cleanly to API usage, and the gray-market "cheap API" resellers can't tell you which model is actually answering your request. 9LinkAI (久连 9Link, at 9linkai.com) is built to resolve exactly that tension for both families at once. It is an independent API relay platform: you send requests with a standard Anthropic or OpenAI-compatible endpoint, the gateway forwards each request — unchanged, un-degraded — to the official Anthropic and OpenAI upstream, and you are billed at **60% of the official public price** (official price × 0.6, a flat 40% saving across the entire catalog). GPT and Claude sit side by side in one catalog, behind one key, on one bill.
+If you have been hunting for the **cheapest GPT API model** — or for that matter the cheapest legitimate way to run **Claude**, Anthropic's frontier family, behind your code, your product, or your agents — you have almost certainly run into the same wall: official list prices are high, subscription plans don't map cleanly to API usage, and the gray-market "cheap API" resellers can't tell you which model is actually answering your request. 9LinkAI (久连 9Link) is built to resolve exactly that tension for both families at once. It is an independent API relay platform: you send requests with a standard Anthropic or OpenAI-compatible endpoint, the gateway forwards each request — unchanged, un-degraded — to the official Anthropic and OpenAI upstream, and you are billed at **60% of the official public price** (official price × 0.6, a flat 40% saving across the entire catalog). GPT and Claude sit side by side in one catalog, behind one key, on one bill.
 
 This article walks through the whole service: what it is, the full model-and-price table, a close look at the cheapest GPT API model on the list, an equally close look at the cheapest Claude, realistic monthly cost scenarios, setup in four steps, billing mechanics, reliability guarantees, and who the service is (and isn't) for.
 
@@ -67,7 +67,7 @@ To put that in perspective: one million tokens of *output* from GPT-6 Luna costs
 
 The next rung up, **GPT-5.6 Luna** ($0.12 / $0.72), doubles capability for still-trivial cost. But the pricing tier that most teams will actually settle on for daily production work is **GPT-6.1 Sol** (`gpt-6.1-sol`) — OpenAI's mainstream balanced model, which 9Link sells at **$1.20 / $6.00**, roughly one-fifth the price of the flagship GPT-6 Astra ($6.00 / $30.00 through 9Link). In other words, 9Link's catalog spans a 100× price range *within the GPT family alone* — from $0.06 to $6.00 per million input tokens — and every rung of that ladder carries the same flat 40% discount.
 
-**The catch — honestly stated:** the 40% discount applies to the token price; you should always confirm current numbers on the live [Model Plaza](https://9linkai.com/model-plaza), because prices track official list changes automatically. The discount is on public list prices, before tax. There is no free tier and no subscription — it's pure prepaid pay-as-you-go.
+**The catch — honestly stated:** the 40% discount applies to the token price; you should always confirm current numbers on the live Model Plaza price page inside the console, because prices track official list changes automatically. The discount is on public list prices, before tax. There is no free tier and no subscription — it's pure prepaid pay-as-you-go.
 
 > **Start with the cheapest GPT API model: [create your 9LinkAI account →](https://9linkai.com/register?aff=BASHIGE)**
 
@@ -208,9 +208,7 @@ Getting started takes an email, a top-up of any size, and two environment variab
 
 > ### 👉 [Register on 9LinkAI & get your API key now →](https://9linkai.com/register?aff=BASHIGE)
 
-- **Register & get an API Key:** [9linkai.com/register?aff=BASHIGE](https://9linkai.com/register?aff=BASHIGE)
-- **Full price list:** [9linkai.com/model-plaza](https://9linkai.com/model-plaza)
-- **Integration guide:** [9linkai.com/guide](https://9linkai.com/guide)
+- **Register & get an API Key:** [register?aff=BASHIGE](https://9linkai.com/register?aff=BASHIGE) — the console also contains the full Model Plaza price list and the complete integration guide
 - **Support:** support@9linkai.com · Telegram: t.me/Tom9linkai
 
 *Prices and model availability cited in this article reflect the platform's published catalog verified against official price pages as of 2026-10-16; both can change, so confirm live numbers on the Model Plaza before committing a budget. 9LinkAI is an independent third-party service, unaffiliated with and unendorsed by Anthropic or OpenAI; Claude and Anthropic are trademarks of Anthropic PBC, and GPT is a trademark of OpenAI.*
